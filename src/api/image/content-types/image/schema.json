@@ -4,7 +4,8 @@
   "info": {
     "singularName": "image",
     "pluralName": "images",
-    "displayName": "Image"
+    "displayName": "Image",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,20 @@
   "pluginOptions": {},
   "attributes": {
     "url": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "practice-4",
+  "name": "mise-en-pratique-4-back",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -7,26 +7,27 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi",
-    "deploy": "strapi deploy"
+    "strapi": "strapi"
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.25.11",
-    "@strapi/plugin-users-permissions": "4.25.11",
-    "@strapi/plugin-i18n": "4.25.11",
-    "@strapi/plugin-cloud": "4.25.11",
+    "@strapi/plugin-cloud": "4.20.0",
+    "@strapi/plugin-i18n": "4.20.0",
+    "@strapi/plugin-users-permissions": "4.20.0",
+    "@strapi/provider-upload-cloudinary": "^4.20.0",
+    "@strapi/strapi": "4.20.0",
     "better-sqlite3": "8.6.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "stripe": "^14.16.0",
     "styled-components": "5.3.3"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "9bfa6d34-be53-413c-bb99-7f5a8ba13408"
+    "uuid": "70110d85-a1d1-475a-bea6-58e7b3c475ed"
   },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
